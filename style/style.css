@@ -12,11 +12,15 @@ h1 {
 }
 
 h1,h2,h3 {
+    color: darkblue;
     font-family:Georgia, 'Times New Roman', Times, serif;
     border-left: dotted royalblue;
     padding-left: 20px;
 }
 
+footer {
+    text-align: center;
+}
 
 ul { 
     list-style: square;
@@ -24,13 +28,11 @@ ul {
 }
 
 ul li { 
-    background-color:lightgrey;
-   
+    background-color:lightgrey;  
 }
 
 ul li:nth-child(odd) { 
     background-color: white;
-   
 }
 
 header, footer, main {
@@ -40,8 +42,7 @@ header, footer, main {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 20px;
-    border: 5px solid lightsteelblue;
-    
+    border: 5px solid lightsteelblue;   
 }
 
 header, footer { 
@@ -62,6 +63,10 @@ a:hover{
 
 .site-title{ 
     color:darkblue;
+}
+
+.my_name{
+    color:rgb(0, 5, 75)
 }
 
 #my-image{
